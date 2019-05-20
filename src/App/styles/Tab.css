@@ -1,0 +1,44 @@
+.Tab{
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.Tab-iconBox{
+  width: 12px;
+  margin-left: 3px;
+  height: 24px;
+  color: #778ca2;
+  font-family: LineAwesome;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.Tab-linkAndDescription{
+  margin-left: 19px;
+}
+
+.Tab-iconBox.is-activeTab, .Tab-link.is-activeTab{
+  color: #8c54ff;
+}
+
+.Tab-link{
+  height: 19px;
+  color: #252631;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.Tab-description{
+  height: 18px;
+  color: #98a9bc;
+  font-family: "Fira Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}

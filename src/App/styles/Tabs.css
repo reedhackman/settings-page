@@ -1,0 +1,29 @@
+.Tabs{
+  width: 1140px;
+  height: 714px;
+  display: flex;
+}
+
+.Tabs-allTabs{
+  width: 293px;
+  height: 714px;
+  border-right: 1px solid #f2f4f6;
+}
+
+.Tabs-tabWrapper{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f2f4f6;
+}
+
+.Tabs-content{
+  width: 847px;
+  margin-left: 29px;
+  margin-top: 31px;
+}
+
+.Tabs-tabWrapper.is-activeTab{
+  border-right: 2px solid #8c54ff;
+  background: rgba(248, 250, 251, 0.539731);
+}

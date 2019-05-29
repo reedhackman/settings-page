@@ -1,10 +1,95 @@
+.SettingsTab{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.SettingsTab-iconBox{
+  width: 12px;
+  margin-left: 3px;
+  height: 24px;
+  color: #778ca2;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.SettingsTab-linkAndDescription{
+  margin-left: 19px;
+}
+
+.SettingsTab-iconBox.is-activeTab, .SettingsTab-link.is-activeTab{
+  color: #8c54ff;
+}
+
+.SettingsTab-link{
+  height: 19px;
+  color: #252631;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.SettingsTab-description{
+  height: 18px;
+  color: #98a9bc;
+  font-family: "Fira Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Settings-wrapper{
+  min-width: 1000px;
+  height: 714px;
+  display: grid;
+  grid-template-columns: minmax(min-content, 293px) minmax(500px, 1fr);
+}
+
+.Settings-tabs{
+  width: 293px;
+  height: 714px;
+  border-right: 1px solid #f2f4f6;
+}
+
+.SettingsTabs-tabWrapper{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f2f4f6;
+}
+
+.Settings-content{
+  margin-top: 31px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Settings-contentWrapper{
+  margin-left: 29px;
+  margin-top: 31px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.SettingsTabs-tabWrapper.is-activeTab{
+  border-right: 2px solid #8c54ff;
+  background: rgba(248, 250, 251, 0.539731);
+}
+
 .generalInformation-formWrapper{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.generalInformation-title{
+.Settings-title{
   height: 24px;
   color: #252631;
   font-family: "Fira Sans";
@@ -16,6 +101,8 @@
 .generalInformation-fieldWrapper{
   margin-top: 23px;
   margin-right: 26px;
+  display: flex;
+  flex-direction: column;
 }
 
 .generalInformation-fieldTitle{
@@ -65,7 +152,7 @@
  margin: auto;
 }
 
-.rectangle5{
+.generalInformation-fieldBox{
   width: 360px;
   height: 52px;
   border: solid 1px #e8ecef;

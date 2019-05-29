@@ -1,6 +1,6 @@
 import React from 'react';
-import Settings from './pages/Settings'
-import './line-awesome.css'
+import Settings from './components/SettingsPage'
+import '../css/settings.css'
 
 function App() {
   return (
